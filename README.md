@@ -1,6 +1,6 @@
 # Crowdfunding-Site
-Crowdfunding Site built with Django - HTML - CSS - Bootstrap
-This is crowdfunding site, has following functions:
+Crowdfunding Site built with Django - HTML - CSS - Bootstrap<br/>
+This is crowdfunding site, has following functions:<br/>
 User functions:<br/>
   
   Can Signup (Name - Mail - Phone Number - password - confirmation password)<br/>
