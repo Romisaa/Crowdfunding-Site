@@ -1,20 +1,24 @@
 # Crowdfunding-Site
 Crowdfunding Site built with Django - HTML - CSS - Bootstrap
 This is crowdfunding site, has following functions:
-User functions:
---> Can Signup (Name - Mail - Phone Number - password - confirmation password)
---> App send activation mail to the user.
---> Can login after activation using (name - password)
---> Can update profile picture and edit all his information except mail.
---> user can delete and update his own posts.
+<h2>User functions:<h2/>
+<li>
+  <ul>Can Signup (Name - Mail - Phone Number - password - confirmation password)</ul>
+  <ul>App send activation mail to the user.</ul>
+  <ul>Can login after activation using (name - password)</ul>
+  <ul>Can update profile picture and edit all his information except mail.</ul>
+  <ul>user can delete and update his own posts.</ul>
 
-Donation Post function:
---> Make title
---> Choose tag and category.
---> can upload image.
---> can donate with donate button.
---> can write comment on the post
+</li>
 
+<h2>Donation Post function:<h2/>
+<li>
+  <ul>Make title</ul>
+  <ul>Choose tag and category.</ul>
+  <ul>can upload image.</ul>
+  <ul>can donate with donate button.</ul>
+  <ul>can write comment on the post</ul>
+</li>
 
 
 <h1>Frontend</h1>
@@ -24,16 +28,16 @@ Donation Post function:
 ![Capture8](https://user-images.githubusercontent.com/25539327/199357745-c2efb16a-8f60-4895-bcdf-bfad51b7a9fa.PNG)
 ![Capture9](https://user-images.githubusercontent.com/25539327/199357747-ef692c4d-a8f9-4888-ae12-cbe1181ddd5e.PNG)
 
-User Registeration
+<h1>User Registeration</h1>
 
 ![Capture1](https://user-images.githubusercontent.com/25539327/199357786-bb347987-e7ed-4ba8-99e9-7f7a564628dd.PNG)
 ![Capture2](https://user-images.githubusercontent.com/25539327/199357781-05f12ccd-cc91-4524-9e50-2006cafc4b82.PNG)
 ![Capture3](https://user-images.githubusercontent.com/25539327/199357785-22966c22-c796-4767-9c71-916058a36197.PNG)
 
-User Can edit his own data
+<h1>User Can edit his own data<h1>
 ![Capture12](https://user-images.githubusercontent.com/25539327/199357892-150c08e5-e362-46d8-b8f0-233024f17e10.PNG)
 
-Donation Posts
+<h1>Donation Posts</h1>
 ![Capture16](https://user-images.githubusercontent.com/25539327/199358026-445cd129-9c88-4fc6-b419-6a1446389135.PNG)
 ![Capture10](https://user-images.githubusercontent.com/25539327/199358041-8d5fad84-b5b1-4b8b-81d0-469b7744dcc9.PNG)
 ![Capture11](https://user-images.githubusercontent.com/25539327/199358046-b472efe0-6f15-44b2-bf17-04a60b9ce37f.PNG)
