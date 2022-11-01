@@ -2,14 +2,12 @@
 Crowdfunding Site built with Django - HTML - CSS - Bootstrap
 This is crowdfunding site, has following functions:
 <h2>User functions:<h2/>
-<li>
+  
   <p>Can Signup (Name - Mail - Phone Number - password - confirmation password)</p>
-  <ol>App send activation mail to the user.</ol>
-  <ol>Can login after activation using (name - password)</ol>
-  <ol>Can update profile picture and edit all his information except mail.</ol>
-  <ol>user can delete and update his own posts.</ol>
-
-</li>
+  <p>App send activation mail to the user.</p>
+  <p>Can login after activation using (name - password)</p>
+  <p>Can update profile picture and edit all his information except mail.</p>
+  <p>user can delete and update his own posts.</p>
 
 <h2>Donation Post function:<h2/>
 <li>
