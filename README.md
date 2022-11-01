@@ -32,7 +32,7 @@ Donation Post function:<br/>
 ![Capture2](https://user-images.githubusercontent.com/25539327/199357781-05f12ccd-cc91-4524-9e50-2006cafc4b82.PNG)
 ![Capture3](https://user-images.githubusercontent.com/25539327/199357785-22966c22-c796-4767-9c71-916058a36197.PNG)
 
-<h1>User Can edit his own data<h1>
+<h1>User Can edit his own data</h1>
 ![Capture12](https://user-images.githubusercontent.com/25539327/199357892-150c08e5-e362-46d8-b8f0-233024f17e10.PNG)
 
 <h1>Donation Posts</h1>
