@@ -3,20 +3,20 @@ Crowdfunding Site built with Django - HTML - CSS - Bootstrap
 This is crowdfunding site, has following functions:
 <h2>User functions:<h2/>
   
-  <p>Can Signup (Name - Mail - Phone Number - password - confirmation password)</p>
-  <p>App send activation mail to the user.</p>
-  <p>Can login after activation using (name - password)</p>
-  <p>Can update profile picture and edit all his information except mail.</p>
-  <p>user can delete and update his own posts.</p>
+  Can Signup (Name - Mail - Phone Number - password - confirmation password)
+  App send activation mail to the user.
+  Can login after activation using (name - password)
+  Can update profile picture and edit all his information except mail.
+  user can delete and update his own posts.
 
 <h2>Donation Post function:<h2/>
-<li>
-  <ul>Make title</ul>
-  <ul>Choose tag and category.</ul>
-  <ul>can upload image.</ul>
-  <ul>can donate with donate button.</ul>
-  <ul>can write comment on the post</ul>
-</li>
+
+  Make title
+  Choose tag and category.
+  can upload image.
+  can donate with donate button.
+  can write comment on the post
+
 
 
 <h1>Frontend</h1>
