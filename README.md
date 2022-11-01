@@ -1,7 +1,7 @@
 # Crowdfunding-Site
 Crowdfunding Site built with Django - HTML - CSS - Bootstrap
 This is crowdfunding site, has following functions:
-<h2>User functions:<h2/>
+User functions:
   
   Can Signup (Name - Mail - Phone Number - password - confirmation password)
   App send activation mail to the user.
