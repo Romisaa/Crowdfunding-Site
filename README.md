@@ -17,7 +17,7 @@ Donation Post function:
 
 
 
-Frontend
+<h1>Frontend</h1>
 
 ![Capture6](https://user-images.githubusercontent.com/25539327/199357717-cd419ee2-3a00-47f9-b9b8-0e1e0ca9053c.PNG)
 ![Capture7](https://user-images.githubusercontent.com/25539327/199357735-39430a06-c22d-4ddf-bd3b-725888f0028b.PNG)
