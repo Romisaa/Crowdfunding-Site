@@ -6,16 +6,16 @@ User functions:<br/>
   Can Signup (Name - Mail - Phone Number - password - confirmation password)<br/>
   App send activation mail to the user.<br/>
   Can login after activation using (name - password)<br/>
-  Can update profile picture and edit all his information except mail.
-  user can delete and update his own posts.
+  Can update profile picture and edit all his information except mail.<br/>
+  user can delete and update his own posts.<br/>
 
-Donation Post function:
+Donation Post function:<br/>
 
-  Make title
-  Choose tag and category.
-  can upload image.
-  can donate with donate button.
-  can write comment on the post
+  Make title<br/>
+  Choose tag and category.<br/>
+  can upload image.<br/>
+  can donate with donate button.<br/>
+  can write comment on the post<br/>
 
 
 
