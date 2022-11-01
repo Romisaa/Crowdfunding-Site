@@ -1,0 +1,125 @@
+{% extends "main_page/base.html" %}
+
+{% block content%}
+
+<style>
+  .banner_image{
+    padding-bottom:100px;
+}
+
+.brief{
+  height: 650px;
+  width: 100%;
+  background-color: #e3f2fd;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 10rem auto 0 auto;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  padding:40px;
+}
+
+.who_we_are{
+  padding-right: 79%;
+  padding-top: 73px;
+  text-decoration-line: line-through;
+}
+
+.brief_word{
+  margin-right: 15px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  word-spacing: 7px;
+}
+
+.section{
+    background-color: #f8f9fa;
+    display:flex;
+    justify-content: space-between;
+    padding:40px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+}
+
+.section img{
+    height: 250px;
+    padding-left: 403px;
+}
+
+.section h1{
+    margin:0
+}
+
+.section p{
+    margin-right: 15px;
+}
+</style>
+
+<div class="banner_image">
+    <img src="https://img.freepik.com/free-vector/crowdfunding-horizontal-typography-banner-set-with-goal-idea-symbols-flat-illustration_1284-29485.jpg?w=2000" class="img-fluid" alt="...">
+</div>
+
+<div class="container">
+
+    <div class="card-group">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ0C2Y_YGFqoKMCqgdn5EBfN2WAZPw6jahx_Dn4zN2r0SKQhNR9LzE1dJIZf6K8U0qYKo&usqp=CAU" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://www.lboro.ac.uk/media/wwwlboroacuk/external/content/mediacentre/pressreleases/2020/03/donation-illustration.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://medaid.co.uk/wp-content/uploads/2021/06/Help-Us@2x.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+  <div class="brief">
+    <div class="text">
+          <h5 class="who_we_are">Who We Are</h5>
+          <h3 class="brief_word">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+
+    </div>
+      <button type="button" class="btn btn-primary" style="margin-left: 558px;">Know More</button>
+  </div>
+
+    <div class="section">
+        <div class="contact_us">
+            <h1>Contact Us</h1> <br>
+            <p>
+                <a class="btn btn-primary" style="background-color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f">Facebook</i></a>
+                <a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button"><i class="fab fa-twitter">Twitter</i></a>
+               <img src="https://i.ibb.co/d2n4GG4/footer-flower-cta.png">
+            </p>
+        </div>
+    </div>
+  
+
+{% endblock content %}
+
+

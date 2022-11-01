@@ -1,0 +1,22 @@
+{% extends "main_page/base.html" %}
+
+{% block content %}
+
+    {% if user.is_authenticated %}
+        <h1>Add Category</h1>
+        <br/>
+        <div class="form-group">
+            <form action="{% url 'site-posts' %}" method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button class="btn btn-secondary">
+                    Add Category
+                </button>
+
+            </form>
+        </div>
+
+    {% else%}
+        You are not allowed to add category
+    {% endif %}
+{% endblock content %}

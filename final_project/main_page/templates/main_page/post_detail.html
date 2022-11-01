@@ -1,0 +1,77 @@
+{% extends "main_page/base.html" %}
+{% block content %}
+
+<style>
+  .rounded-circle{width:50px; height:50px;}
+
+
+
+</style>
+
+<article class="media content-section">
+    <img class="rounded-circle article-img" src="{{ object.author.profile.image.url }}">
+    <div class="media-body">
+        <div class="article-metadata">
+            <a class="mr-2" href="#">{{ object.author }}</a>
+            <small class="text-muted">{{ object.date_posted|date:"F d, Y" }}</small>
+            {% if object.author == user %}
+            <div>
+                <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'post-update' object.id %}">Update</a>
+                <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'post-delete' object.id %}">Delete</a>
+            </div>
+            {% endif %}
+        </div>
+        <h2 class="article-title">{{ object.title }}</h2>
+        <p class="article-content">{{ object.content }}</p>
+        <p class="article-content">{{ post.tag }}</p>
+        <p class="article-content">{{ post.category }}</p>
+        {% if post.imgs %}
+        <img src="{{ post.imgs.url }}">
+        {% endif %}
+    </div>
+    <form action="{% url 'like-post' %}" method="POST">
+        {% csrf_token %}
+        <input type="hidden" name="post_id" value="{{ post.id }}">
+        {% if user not in post.liked.all %}
+        <button class="btn btn-success" type="submit" style="margin-left: 50px; margin-top: 20px;">Donate</button>
+        {% else %}
+        <button class="btn btn-secondary" type="submit" style="margin-left: 50px; margin-top: 20px;">Don't want to
+            donate
+        </button>
+        {% endif %}
+        <strong>{{ post.liked.all.count }}</strong>
+    </form>
+</article>
+
+{% if user.is_authenticated %}
+<div class="form-group">
+    <form action="{% url 'site-posts' %}" method="POST" enctype="multipart/form-data">
+        {% csrf_token%}
+        {{form.media}}
+        {{ form.as_p }}
+        <button class="btn btn-secondary">Add Image</button>
+    </form>
+</div>
+{% endif%}
+
+
+<!--  Comment Section-->
+<div>
+    <h4> Comments </h4>
+
+    {% if not post.comments.all%}
+    No Comment Yet
+    <a href="{% url 'add-comment' post.id %}">Add Comment</a> <br/>
+    {% else %}
+
+    {% for comment in post.comments.all %}
+    <strong>
+        {{ comment.name }} - {{ comment.date_added }}
+    </strong>
+    <br/>
+    {{ comment.body_comment }}
+
+    {% endfor%}
+    {% endif %}
+</div>
+{% endblock content %}
